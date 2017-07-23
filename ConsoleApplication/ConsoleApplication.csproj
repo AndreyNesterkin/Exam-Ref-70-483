@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncAwaitExample.cs" />
+    <Compile Include="Examples\AsyncAwaitExample.cs" />
     <Compile Include="Example.cs" />
+    <Compile Include="Examples\ExceptionDispatchInfoExample.cs" />
+    <Compile Include="Examples\FailFastExample.cs" />
+    <Compile Include="Examples\ManuallyRaisingEventsWithExceptionHandling.cs" />
+    <Compile Include="Examples\Reflection\ConditionalAttributeExample.cs" />
+    <Compile Include="Examples\Reflection\CustomAttributeExample.cs" />
     <Compile Include="Host.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

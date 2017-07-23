@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ConsoleApplication.Examples;
+using ConsoleApplication.Examples.Reflection;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +15,7 @@ namespace ConsoleApplication
         {
             try
             {
-                new AsyncAwaitExample().Run();
+                new ExceptionDispatchInfoExample().Run();
             }
             catch (Exception exception)
             {
